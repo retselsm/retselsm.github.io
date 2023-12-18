@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Relic Charts Embed</title>
+    <style>
+        .row {
+            display: flex;
+            justify-content: space-around;
+        }
+        .iframe-container {
+            width: 50%;
+        }
+        iframe {
+            width: 100%; /* Sets the iframe width to fill the container */
+            height: 400px; /* Fixed height for all iframes */
+            border: 0; /* Removes the iframe border */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- First Row of New Relic Chart Embeds -->
+    <div class="row">
+        <div class="iframe-container">
+            <!-- First New Relic Chart Embed -->
+            <iframe 
+                src="https://chart-embed.service.newrelic.com/herald/45d3ab3f-ca4f-440e-9f77-f70466bc6fe1?height=400px&timepicker=true">
+            </iframe>
+        </div>
+        <div class="iframe-container">
+            <!-- Second New Relic Chart Embed -->
+            <iframe 
+                src="https://chart-embed.service.newrelic.com/herald/5d94edf5-dc71-421f-a58b-595062e9359b?height=400px&timepicker=true">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Second Row of New Relic Chart Embeds -->
+    <div class="row">
+        <div class="iframe-container">
+            <!-- Third New Relic Chart Embed -->
+            <iframe 
+                src="https://chart-embed.service.newrelic.com/herald/5aa43983-6203-47c8-b400-5f5b5f7ecb31?height=400px&timepicker=true">
+            </iframe>
+        </div>
+        <div class="iframe-container">
+            <!-- Fourth New Relic Chart Embed -->
+            <iframe 
+                src="https://chart-embed.service.newrelic.com/herald/3134b091-3aa5-4bf0-b7d2-3d95c53bb898?height=400px&timepicker=true">
+            </iframe>
+        </div>
+    </div>
+
+</body>
+</html>
